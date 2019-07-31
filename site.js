@@ -29,7 +29,7 @@ if (typeof
 let tess = sessionStorage.getItem("cookie")
 if (!tess) {
 $('#cook')
-.append("<div id='cookie'> We use technical and analytics cookies to ensure that the user can have the best experience. <br><br> These last for 1 day. <br><br><button id = 'cookies'> Click to Accept</button></div>");
+.append("<div id='cookie'> We use technical and analytics cookies to ensure that the user can have the best experience. <br><br> These last for 1 session. <br><br><button id = 'cookies'> Click to Accept</button></div>");
 // alert("We use technical and analytics cookies to ensure that the user can have the best experience.");
 } else {
 document.getElementById("cook")
